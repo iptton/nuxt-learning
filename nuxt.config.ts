@@ -1,12 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import * as daisyui from "daisyui";
 
-const baseURL = `${process.env.BASEURL ?? "/"}`
-console.info('baseURL='+baseURL, process.env.BASEURL)
+const baseURL = process.env.NUXT_APP_BASE_URL
+console.info('baseURL='+baseURL)
 export default defineNuxtConfig({
-  app: {
-    baseURL: baseURL
-  },
   components: [
     {
       path: "~/components",
