@@ -20,4 +20,5 @@ export default defineNuxtConfig({
       plugins: [daisyui],
     },
   },
+  target: 'static',
 })
