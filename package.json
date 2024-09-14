@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "BASEURL=/nuxt-learning/ nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
